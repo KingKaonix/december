@@ -5,10 +5,10 @@
 export const config = {
   aiSdk: {
     // The base URL for the AI SDK, leave blank for e.g. openai
-    baseUrl: "https://openrouter.ai/api/v1",
+    baseUrl: "",
 
     // Your API key for provider, if using Ollama enter "ollama" here
-    apiKey: "sk-or-v1-824...",
+    apiKey: "",
 
     // The model to use, e.g., "gpt-4", "gpt-3.5-turbo", or "ollama/llama2"
     model: "anthropic/claude-sonnet-4",
